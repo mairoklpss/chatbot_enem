@@ -84,9 +84,11 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] Ao gerar questões, segue formato ISO do ENEM (múltipla escolha, contexto)
-- [ ] Não inventa notas ou desempenho — apenas registra o que o aluno acertou/errou
+- [ ] Pergunta antes de sugerir
+- [ ] Não inventa planos de estudo sem conhecer a rotina do aluno
+- [ ] Respeita o cansaço do aluno
 - [ ] Não gera cronogramas robustos e sim de acordo com a necessidade do usuário
+- [ ] Mantém o foco exclusivo em organização e motivação 
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
