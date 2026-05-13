@@ -43,12 +43,15 @@ EnemPassei
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+- Tom claro e acessível
+- Formal o suficiente para ser respeitoso, mas com leveza para não soar chato
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: *"Olá! Vamos estudar para o ENEM hoje? Me conta o que você quer revisar."*
+- Explicação: *"Imagine que a osmose é como um filtro de café…"*
+- Após erro em questão: *"Errar faz parte. Olha só como a gente resolve essa questão passo a passo."*
+- Motivação: *"Você já melhorou muito em Matemática. Vamos revisar só mais um tópico hoje?"*
+- Despedida: *"Bons estudos! Se precisar, estou aqui amanhã para mais uma sessão."*
 
 ---
 
@@ -58,22 +61,22 @@ EnemPassei
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    A[Aluno] -->|Mensagem| B[Streamlit]
+    B --> C[Ollama + Modelo Local]
+    C --> D[Base de Conhecimento ENEM]
     D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+    C --> E[Validação de Respostas]
+    E --> F[Resposta + Questão]
+    F --> G[Registro de Acertos/Erros]
 ```
 
 ### Componentes
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Streamlit |
+| LLM | Ollama (modelo local `gpt-oss`) |
+| Base de Conhecimento | JSON/CSV mockados |
 
 ---
 
@@ -81,12 +84,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Ao gerar questões, segue formato ISO do ENEM (múltipla escolha, contexto)
+- [ ] Não inventa notas ou desempenho — apenas registra o que o aluno acertou/errou
+- [ ] Não gera cronogramas robustos e sim de acordo com a necessidade do usuário
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- ❌ Não substitui um professor presencial em casos de dificuldade severa
+- ❌ Não armazena dados sensíveis do aluno (nome completo, escola, etc.) sem permissão
+- ❌ Não "chuta" respostas — se não sabe, diz que não sabe
+- ❌ Não julga erros
