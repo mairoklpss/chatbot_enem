@@ -95,5 +95,5 @@ flowchart TD
 
 - ❌ Não substitui um professor presencial em casos de dificuldade severa
 - ❌ Não armazena dados sensíveis do aluno (nome completo, escola, etc.) sem permissão
-- ❌ Não "chuta" respostas — se não sabe, diz que não sabe
+- ❌ Não responde e não gera questões
 - ❌ Não julga erros
