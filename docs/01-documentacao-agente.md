@@ -12,7 +12,6 @@ Dificuldade de organizar os estudos para o ENEM 2026 de forma personalizada, man
 
 - Cria planos de estudo personalizados com base nas necessidades do aluno;
 - Explica conceitos de forma simples e adaptada ao nível do usuário;
-- Gera questões de múltipla escolha estilo ENEM para praticar;
 - Acompanha acertos e erros para revisar conteúdos com mais dificuldade;
 - Oferece dicas de gestão de tempo e motivação;
 - Gera cronograma personalidade de acordo com a carga horária disponível do usuário.
