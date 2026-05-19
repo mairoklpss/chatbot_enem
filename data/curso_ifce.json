@@ -1,0 +1,31 @@
+{
+  "curso": "Ciência da Computação",
+  "instituicao": "IFCE - Campus Tianguá",
+  "cidade": "Tianguá - CE",
+  "grau": "Bacharelado",
+  "modalidade": "Presencial",
+  "turno": "Noturno",
+  "duracao_semestres": 9,
+  "duracao_anos": 4.5,
+  "carga_horaria_total": 3800,
+  "vagas_semestre": 35,
+  "ingresso": "SISU (Sistema de Seleção Unificada)",
+  "processo_utiliza": "Nota do ENEM",
+  "pesos_sisu": {
+    "Linguagens e Codigos": 1.0,
+    "Matematica": 3.0,
+    "Ciencias Humanas": 1.0,
+    "Ciencias da Natureza": 2.0,
+    "Redacao": 1.0
+  },
+  "notas_corte_referencia_2025_1": {
+    "ampla_concorrencia": 678.76,
+    "escola_publica_ep": 677.83,
+    "ep_renda": 677.18,
+    "ppi_ep": 634.61,
+    "ppi_ampla": 660.09,
+    "deficiencia_ep": 473.0,
+    "quilombola_ep": 425.95
+  },
+  "observacoes": "Dados atualizados em Abril de 2026. Os pesos e notas de corte são do SISU 2025.1 e servem como referência."
+}

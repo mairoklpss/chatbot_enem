@@ -1,0 +1,30 @@
+[
+  {
+    "categoria": "organizacao",
+    "dica": "Liste as 3 matérias mais importantes do dia e comece pela mais difícil"
+  },
+  {
+    "categoria": "foco",
+    "dica": "Que tal estudar 50 minutos e descansar 10? É o ciclo perfeito."
+  },
+  {
+    "categoria": "motivacao",
+    "dica": "Um passo por vez. Hoje você estuda 1 horinha, amanhã mais um pouco."
+  },
+  {
+    "categoria": "rotina",
+    "dica": "Tenta estudar sempre no mesmo horário. O cérebro acostuma e rende mais."
+  },
+  {
+    "categoria": "revisao",
+    "dica": "Revisar é tão importante quanto estudar. Reserva um tempinho pra isso."
+  },
+  {
+    "categoria": "procrastinacao",
+    "dica": "Comece com apenas 5 minutos. Depois que começa, fica mais fácil continuar."
+  },
+  {
+    "categoria": "descanso",
+    "dica": "Descansar também é estudar. O cérebro precisa de pausa pra fixar o conteúdo."
+  }
+]

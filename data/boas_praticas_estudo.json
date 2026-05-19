@@ -1,0 +1,45 @@
+{
+  "guia_metodologico_enem": {
+    "como_montar_o_cronograma": {
+      "passo_1_avalie_sua_semana": "Liste quantas horas líquidas você tem por dia. Comece com menos (2h/dia) e aumente gradualmente. Melhor consistência baixa do que frustração por meta irreal.",
+      "passo_2_distribua_prioridades": "Use seus níveis de dificuldade (do perfil_aluno.json) para decidir o que estudar cada dia. Nível 5 e 4 merecem seus melhores horários (quando você está mais descansado).",
+      "passo_3_alterne_areas": "Não estude a mesma área dois dias seguidos. O cérebro precisa de 'dormência' entre assuntos. Exemplo: Humanas hoje, Natureza amanhã.",
+      "passo_4_reserve_dias_de_revisao": "Separe pelo menos um dia na semana apenas para revisar o que estudou e corrigir erros de questões/simulados."
+    },
+    "tecnicas_de_estudo_recomendadas": {
+      "estudo_teorico": "Para Humanas e Biologia: Vídeo-aula curta (20-30min) + Mapa Mental ou Resumo com suas palavras + 10 questões sobre o tema. Não pule a parte de questões.",
+      "estudo_pratico_exatas": "Para Matemática e Física: Menos teoria, mais exercício. Comece com questões mais simples e evolua. Matemática tem peso 3 no IFCE, então não negligencie mesmo que você já tenha boa base.",
+      "revisao_ativa": "Use flashcards (físico ou app como Anki) para revisar conceitos de Humanas, Biologia e Química. Perguntas curtas ativam a memória de longo prazo.",
+      "correcao_de_erros": "Mantenha um caderno ou planilha com as questões que errou. Anote: qual foi o erro (falta de teoria, atenção, pegadinha) e o que aprender com ele. Isso dobra seu rendimento.",
+      "simulado_estrategico": "Resolva provas antigas do ENEM (site do INEP) aos sábados. Cronometre o tempo. No dia seguinte, corrija cada erro com calma. Simular sem corrigir é perda de tempo."
+    },
+    "estrategia_para_redacao": {
+      "frequencia": "1 redação completa por semana. Em outra semana da semana, apenas treine o esqueleto (introdução + desenvolvimento 1).",
+      "como_melhorar_repertorio": "Estude Filosofia e Sociologia com olhar de redação. Ao aprender um conceito (ex: Iluminismo), pergunte: 'como posso usar isso para defender um argumento na minha redação?'",
+      "competencias_criticas": {
+        "competencia_2_repertorio": "Evite frases prontas da internet. Use citações e conceitos que você realmente estudou e entende.",
+        "competencia_5_proposta": "Siga o modelo: Agente + Ação + Meio + Finalidade + Detalhamento. Exemplo: 'O Ministério da Educação (agente) deve implementar (ação) campanhas nas escolas (meio) para conscientizar (finalidade), com palestras bimestrais (detalhamento).'"
+      }
+    },
+    "saude_e_motivacao": {
+      "sono": "Durma 7 a 8 horas por noite. O cérebro consolida a memória durante o sono. Estudar dormindo mal rende muito menos.",
+      "pausas": "A cada 50 minutos, pause 10. Nos 10 minutos, saia da frente da tela, beba água, alongue-se. Não pegue o celular.",
+      "dias_ruins": "Todo mundo tem dias que não rende. Se estiver muito cansado, estude menos (30min) ou troque por leitura leve. Recomece no dia seguinte sem culpa.",
+      "atividade_fisica": "Uma caminhada de 20 minutos por dia melhora humor, foco e memória. Coloque na rotina."
+    },
+    "ferramentas_uteis": {
+      "questoes": "Baixe provas antigas do ENEM no site do INEP.",
+      "flashcards": "Use Anki (gratuito) para revisões espaçadas.",
+      "organizacao": "Planilha simples para registrar erros e acompanhar evolução.",
+      "video_aulas": "Canais gratuitos no YouTube são suficientes para a maioria dos temas."
+    },
+    "erros_comuns_a_evitar": [
+      "Estudar muitas horas sem pausa (fadiga reduz aprendizado)",
+      "Assistir vídeoaula sem fazer exercícios (passividade não fixa conteúdo)",
+      "Pular revisão (você esquece 70% em 24h se não revisar)",
+      "Deixar redação para última hora (exige prática semanal)",
+      "Simular sem corrigir erros (o aprendizado está na correção)"
+    ],
+    "lembrete_final": "Consistência supera intensidade. Estudar 2 horas todo dia é melhor que 8 horas no fim de semana. Comece pequeno e construa o hábito."
+  }
+}

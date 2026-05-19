@@ -1,0 +1,39 @@
+{
+  "nome": "Maira",
+  "ocupacao": "estudante de Ensino Médio",
+  "cursos_desejados": ["Análise e Desenvolvimento de Sistemas", "Ciência da Computação"],
+  "dias_da_semana_disponiveis": ["segunda", "terça", "sexta", "sábado", "domingo"],
+  "horas_estudo_dia": 2,
+  "niveis_dificuldade": {
+    "Muito Ruim (5x)": {
+      "descricao": "Dificuldade extrema. Erra muito. → ATAQUE PRIORITÁRIO (maior retorno)",
+      "disciplinas": ["Filosofia", "Sociologia", "Repertório (Redação)"]
+    },
+    "Ruim (4x)": {
+      "descricao": "Dificuldade alta. Erra com frequência. → ATAQUE SECUNDÁRIO",
+      "disciplinas": ["História", "Geografia", "Física", "Estatística e Probabilidade", "Estrutura e Argumentação (Redação)"]
+    },
+    "Mais ou Menos (3x)": {
+      "descricao": "Base instável. Acerta metade. → CONSOLIDAÇÃO",
+      "disciplinas": ["Gramática e Interpretação", "Biologia", "Proposta de Intervenção (Redação)"]
+    },
+    "Bom (2x)": {
+      "descricao": "Base sólida. Acerta a maioria. → MANUTENÇÃO",
+      "disciplinas": ["Literatura", "Álgebra", "Geometria", "Química"]
+    },
+    "Ótimo (1x)": {
+      "descricao": "Domínio. Acerta quase tudo. → REVISÃO ESPORÁDICA",
+      "disciplinas": ["Inglês", "Matemática Básica"]
+    }
+  },
+  "materias_prioridade": ["Filosofia", "Sociologia", "Redação", "História", "Geografia", "Física", "Química", "Matemática"],
+  "observacoes_especificas": {
+    "Química": "Evoluiu de 3x para 2x. Separação de Misturas está em 81% de acerto. Estequiometria iniciada. Consolidar e expandir.",
+    "Física": "Termologia está boa (12/12). Buracos: Lei de Fourier, sensores, resistência térmica. Eletrodinâmica (21% da prova) não começou.",
+    "Biologia": "Começou Ecologia (habitat, nicho, ecótono, hotspots). Foco em Ecologia e Fisiologia Humana primeiro.",
+    "História": "Fez 7/9 em questões fáceis de Brasil Colônia. Precisa avançar para outros períodos.",
+    "Redacao_Estrutura": "Sabe o esqueleto, mas execução instável. Precisa de mais prática com redações completas.",
+    "Redacao_Repertorio": "Depende diretamente de História, Filosofia e Sociologia. Resolver Humanas resolve o repertório.",
+    "Redacao_Intervencao": "Tem a base (agentes, meios, finalidades), mas falta detalhamento e criatividade."
+  }
+}

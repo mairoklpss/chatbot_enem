@@ -1,0 +1,13 @@
+{
+  "curso": "Análise e Desenvolvimento de Sistemas",
+  "instituicao": "Faculdade ViaSapiens",
+  "cidade": "Tianguá - CE",
+  "grau": "Tecnólogo",
+  "modalidade": "Educação a Distância (EAD)",
+  "duracao_semestres": 6,
+  "duracao_anos": 3,
+  "carga_horaria_total": 2300,
+  "vagas_anuais": 400,
+  "ingresso": ["Vestibular FVS", "Nota do ENEM", "Transferência"],
+  "processo_seletivo": "A instituição aceita nota do ENEM como forma de ingresso, além de vestibular próprio. Não há pesos divulgados oficialmente para o ENEM, sendo geralmente utilizada a média simples das notas. Para informações precisas sobre o processo seletivo, é recomendado consultar os editais mais recentes no site da faculdade."
+}
