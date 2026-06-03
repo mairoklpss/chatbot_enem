@@ -65,7 +65,7 @@ Estudantes que estão se preparando para o ENEM 2026, especialmente aqueles que:
 - [x] Contexto personalizado com perfil da aluna
 - [x] Sistema de prompts com regras definidas
 - [x] Interface de chat com Streamlit
-- [ ] Conexão com Ollama local
+- [x] Conexão com Ollama local
 - [ ] Testes de qualidade e preenchimento do docs das métricas
 
 ---
