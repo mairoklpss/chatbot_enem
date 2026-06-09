@@ -125,54 +125,48 @@ st.title("📚 EnemPassei")
 # ================= CRIAÇÃO DA MEMÓRIA =================
 
 # verifica se a lista já está criada. se caso já estiver, não criar novamente.
-if "mensages" not in st.session_state:
+if "mensagens" not in st.session_state:
     st.session_state.mensagens = []  # criação da memoria temporaria do chat atual
 
 for message in st.session_state.mensagens:
     with st.chat_message(message['role']):
         st.markdown(message['content'])
 
-# ================= ENTRADA DO USUÁRIO =================
 
-if pergunta := st.chat_input('Digite sua mensagem...'):
-    st.session_state.mensagens.append({'role': 'user', 'content': pergunta}) 
-
-
-    # BLOCO DE MENSAGEM DO USUÁRIO
-    with st.chat_message("user"):
-        st.markdown(pergunta) # mostra a mensagem do usuário
-
-    historico_texto = ""
-    for msg in st.session_state.mensagens:
-        if msg['role'] == 'user':
-            historico_texto += f"Aluna: {msg['content']}\n"
-        else:
-            historico_texto += f"EnemPassei: {msg['content']}\n"
-    
+def perguntar(mensagem):
     prompt = f"""
     {SYSTEM_PROMPT}
 
     CONTEXTO DA ALUNA:
     {contexto}
 
-    HISTÓRICO DA CONVERSA:
-    {historico_texto}
-
-    EnemPassei, responda a última mensagem da aluna de forma natural, considerando o contexto da conversa.
+    PERGUNTA: {mensagem}
     """
 
-    # BLOCO DE MENSAGEM DA IA
-    with st.chat_message("assistant"):
-       # ================= CONEXÃO OLLAMA ====================
-        resposta_ia = ollama.generate(
+    # ================= CONEXÃO OLLAMA ====================
+    resposta_ia = ollama.generate(
             model='llama3.2:3b', 
             prompt=prompt 
         )
-        #response_placeholder = st.empty() # cria espaço vazio para a resposta da ia.
-        resposta_ao_usuario = resposta_ia['response'] # armazena a resposta da ia.
-        st.markdown(resposta_ao_usuario) # mostra a mensagem da ia.
+    
+    st.session_state.mensagens.append({'role': 'assistant', 'content': resposta_ia['response']}) # adiciona a mensagem do usuario na lista
+    return resposta_ia['response'] # armazena a resposta da ia.
+
+# ================= ENTRADA DO USUÁRIO =================
+
+if pergunta := st.chat_input('Digite sua mensagem...'):
+    st.session_state.mensagens.append({'role': 'user', 'content': pergunta}) 
+
+    # BLOCO DE MENSAGEM DO USUÁRIO
+    st.chat_message("user").write(pergunta) # mostra a mensagem do usuário
+    
+    # BLOCO DE MENSAGEM DA IA
+    with st.chat_message('assistant'):
+        st.write(perguntar(pergunta))
+       
         
-        st.session_state.mensagens.append({'role': 'assistant', 'content': resposta_ao_usuario}) # adiciona a mensagem do usuario na lista
+        
+
 
 
 
